@@ -1,0 +1,170 @@
+SQLite format 3@  �
+�                  �.��
+%a�
+ �
+  �
+x
+ �%%�qtablequiz_historyquiz_history     CREATE TABLE quiz_history (
+    quiz_id TEXT PRIMARY KEY,
+    admin_id INTEGER,
+    admin_name TEXT,
+    chat_id TEXT,
+    text_content TEXT,
+    posted_at TIMESTAMP,
+    status TEXT DEFAULT 'pending',
+    skip_leaderboard INTEGER DEFAULT 0
+)7      K%indexsqlite_autoindex_quiz_history_1quiz_history
+�33�1tablerequested_materialsrequested_materialCREATE TABLE requested_materials (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER,
+    title TEXT,
+    file_id TEXT,
+    file_type TEXT,
+    text_content TEXT,
+    status TEXT DEFAULT 'pending'
+)P++Ytablesqlite_sequencesqlite_sequenceCREATE TABLE sqlite_sequence(name,seq)�/�-tablematerialsmaterialsCREATE TABLE materials (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT,
+    file_id TEXT,
+    file_type TEXT,
+    text_content TEXT
+)��atablechannelschannelsCREATE TABLE channels (
+    channel_id TEXT PRIMARY KEY,
+    title TEXT,
+    is_active INTEGER DEFAULT 0
+)/Cindexsqlite_autoindex_channels_1channelO{tableadminsadminsCREATE TABLE admins (
+    user_id INTEGER PRIMARY KEY
+)��tableusersusersCREATE TABLE users (
+    user_id INTEGER PRIMARY KEY,
+    username TEXT,
+    full_name TEXT,
+    points INTEGER DEFAULT 0,
+    diamonds INTEGER DEFAULT 0,
+    attempts INTEGER DEFAULT 0,
+    correct INTEGER DEFAULT 0,
+    incorrect INTEGER DEFAULT 0
+)�
+I���i= ����pQ9�
+  �9
+    �
+     �
+      �
+       v
+        W
+         :
+
+          �
+           �
+            �
+             �
+              }
+               X
+                &
+
+�
+�
+�
+}
+N
+/
+        �       �       �       t       Z       :�\2
+�����pIO��4���n5����eR.���tM0
+
+SWAROOP_WSA[𝚆𝚂𝙰] 𝙎𝙒𝘼𝙍𝙊𝙊𝙋™𝕏🇮🇳����U       !        NoUsernameBORN2KILL
+"���O   !)             NoUsername🔸▪️🔹
+'��̷3    !3      NoUsernameThakur sahab ⚔️�.����  INVISIBLE_BIRDBIRDIEE🐣 [ DEAD ](����
+                                        +'      Adityaprasad_01Aditya Prasad0���<  !E      Ie_irodovvPHYSICS MONARCH 🧿🧿🧿�!���z     !%              NoUsernameDreamy.daisy
+���Poorvi S'����        !/      NoUsernameAnonymous account����   NoUsernameBlack Cat2Pollz����,   ! NoUsernameDelta��۴m  Just_me0204P🫶🏻��ТJ    snowyyflakessK!����p   !)      NoUsernameMONKEY D LUFFY��¢        #       Voidnull404.�#����8     !-      NoUsernameGiriraj Bhardwaj)��      %3             Ishanaftg007Ishan[Aftg][OFF]✨
+!��� NoUsernameThe Great 💀�䊦THEKRUXKR∆X2����  Orz���R...*����go</!9             Kohliii_85νιяαт кσнℓι
+����    NoUsername-����l        !              NoUsernameMayank
+����Ishaan.......�ލ     NoUsernameV Ilonon���c  +madamecurie1060mistyy
+3����K  NoUsername𝙺𝙸𝚂𝚄𝙺𝙴 🎻4�yoursgravityメ𝙂𝙧𝙖𝙫𝙞𝙩𝙮!����    !'      NoUsernameAnuraj Khonde�!����k  !NoUsernameAditya Mishra
+����Siddhant Kate����?  space_lover123.....�NoUsernameAnonymus���z !       NoUsernamegrizzly-��Indian_devil_0Akmal,��܏s       !9      NoUsernameBaba Tillu Bodmos 🎀P   ��ۜs      !              NoUsernameAreedrit
+ ����G  -       UjjwalGottaShineUjjwal�!����$tanuja021723Tanuja Patil��NoUsername-8����3   )M       Padhlebehen143𝐏𝐀𝐍𝐃𝐀🤍✨[OFF]
+ ���  TheEnemyOfEarthHuman�$��ӡ     KsksjsjsiwjsjswowkejejHarsh!����e   NoUsernamesb moh maya .."��neat8cleanNeat 🔗 Clean����G       NoUsernamedead�NoUsernameGaurav.����s   DibyamshumohapatraDibyamshu Mohapatra!����:Aviralyadav7Aviral Yadav����j   NoUsernameSunny Jangir"����   NoUsernameHarshvardhan�����3       #!      k_i_n_g_300KING [OFF]���C       siddh282920Torque����W Arpit Dubey���e    NoUsernameHELLO���f NoUsernameIntegral�ߞ�, NoUsernameNagul M�(����G   Thinking_a_good_usernamename�"����       !%NoUsernameɴʏʀᴏ乂��ůl Legend_whoLegend)���5   ᴍʀ. ꜰɪɴᴇ ᴏꜰꜰ 🔱"����   !+      TerabaapMCꜱᴄᴏᴜᴛ���0      SHDE_ioSHADE
+����HNoUsernameHarsh Goyal���NoUsernameSorya Gupta����eNoUsernameMusr,���k !=      NoUsernameAmitesh Kumar Srivastava��ܤ�9    %!      Anuj001nehraAnuj Nehra����    Bineet_07Bineet$�ϖ�E !-             NoUsernameAnish Srivastava
+�Ĥ�        Parth���\    Erwin00074Princ���      !NoUsernameALONE🗿
+����Sanket_1waySanket����
+                                R10HANR10han�NoUsernameSounak����_ NoUsernameJee����( �
+���R Pw�߂�>�X_ga)erz_51🐢����  PawanKalyan420Ishanth
+dav�Ğ�K Yatharthg_6Yatharth ����6       !%      NoU���👤�Ҙ�ohnRitam Dey����4bekingC58King King����<  furan2980Furan����L  adityasp314Aditya Sp%����astro070nautJanhavi tripathi����              !        NoUsernameSunshinee
+�⦒G Vishwa156Vishwajeet�٩�f NoUsernameMrin&���� !3honeyraj24Honey Raj Srivastav�IvahbiavI^_^��heAV25TheAV25$����[     #'      monishshaikMonish Shaikh#����FGURI 🔘���W  !       NoU
+���.7https://t.me/holujay6https://t.me/holujay6 ))-1002354951706-1002354951706
+���7https://t.me/holujay6)      -1002354951706
+l|�t
+ �� S�+KCbse Syllabus For All Subjects 📖BQACAgUAAyEFAASMXbYaAAIXzGqDTwryCe1M7hhRcw_mjDzjM1EaAAKNJQACsmMZVBJWOP1ShNnOPQQdocumentCBSE Class XII Syllabus 2Cbse Syllabus For All Subjects 📖BQACAgUAAyEFAASMXbYaAAIXy2qDTwqlgQbUX2daqpfg5-jOoXDXAAKIJQACsmMZVAVLxCbse Syllabus For All Subjects 📖BQACAgUAAyEFAASMXbYaAAIXymqDTwo5LZ4JS9_8qH0pP6qJ-TeQAAJ9JQACsmMZVH4XQCbse Syllabus For All Subjects 📖BQACAgUAAyEFAASMXbYaAAIXyWqDTwpysOAvGw-nDgtSRzHi2-THAAJ5JQACsmMZVLaf4Cbse Syllabus For All Subjects 📖BQACAgUAAyEFAASMXbYaAAIXyGqDTwqkonfDROuDvcy-kKjF3jNBAAKgIwACsmMRVEdkyCbse Syllabus For All Subjects 📖BQACAgUAAyEFAASMXbYaAAIXx2qDTwpeCMVIpuQ459M5afTtjLjXAAKfIwACsmMRVHI7YA�>��,Rl1787316933��Black Cat-10023549517062026-08-A1 18:251787316863��Black Cat-10023549517062026-08-21 18:24:24.757886pendingh      #9)A    1787314458�w�Baba Tillu Bodmos 🎀-1002354951706Mechanics2026-08-21 17:44:19.266057pendingi    #9)!A   1787287137�w�Baba Tillu Bodmos 🎀-1002354951706Ray Optics2026-08-21 10:09:00.453648pendingU   #)1787238908���<KR∆X-1002354951706Conics2026-08-20 20:45:09.499620pending
+������#q1787316933#q1787316863#q1787314458#q1787287I������i= ����p�Q9�
+  �9
+    �
+     �
+      �
+       v
+        W
+         :
+
+          �
+           �
+            �
+             �
+              }
+               X
+                &
+
+�
+�
+�
+}
+N
+/
+        �       �       �       t       Z       :�\2
+�����pIO��4���n5����eR.���tM0
+
+SWAROOP_WSA[𝚆𝚂𝙰] 𝙎𝙒𝘼𝙍𝙊𝙊𝙋™𝕏🇮🇳����U       !        NoUsernameBORN2KILL
+o�O     !)             NoUsername🔸▪️🔹
+'��̷3    !3      NoUsernameThakur sahab ⚔️�.����  INVISIBLE_B����$          mg9103Noob
+(����
+        +'      Adityaprasad_01Aditya Prasad�<  !EIe_irodovvPHYSICS MONARCH 🧿🧿🧿�ͥz       !%        NoUsernameDreamy.daisy
+���Poorvi S'����        !/      NoUsernameAnonymous account����   NoUsernameBlack Cat2Pollz����,   ! NoUsernameDelta��۴m  Just_me0204P🫶🏻��ТJ    snowyyflakessK!����p   !)      NoUsernameMONKEY D LUFFY��¢        #       Voidnull404.�#����8     !-      NoUsernameGiriraj Bhardwaj)��      %3             Ishanaftg007Ishan[Aftg][OFF]✨
+!��� NoUsernameThe Great 💀�䊦THEKRUXKR∆X2����  Orz���R...*����go</!9             Kohliii_85νιяαт кσнℓι
+����    NoUsername-����l        !              NoUsernameMayank
+����Ishaan.......�ލ     NoUsernameV Ilonon���c  +madamecurie1060mistyy
+3����K  NoUsername𝙺𝙸𝚂𝚄𝙺𝙴 🎻4�yoursgravityメ𝙂𝙧𝙖𝙫𝙞𝙩𝙮!����    !'      NoUsernameAnuraj Khonde�!����k  !NoUsernameAditya Mishra
+����Siddhant Kate����?  space_lover123.....�NoUsernameAnonymus���z !       NoUsernamegrizzly-��Indian_devil_0Akmal,��܏s       !9      NoUsernameBaba Tillu Bodmos 🎀P   ��ۜs      !              NoUsernameAreedrit
+ ����G  -       UjjwalGottaShineUjjwal�!����$tanuja021723Tanuja Patil��NoUsername-8����3   )M       Padhlebehen143𝐏𝐀𝐍𝐃𝐀🤍✨[OFF]
+ ���  TheEnemyOfEarthHuman�$��ӡ     KsksjsjsiwjsjswowkejejHarsh!����e   NoUsernamesb moh maya .."��neat8cleanNeat 🔗 Clean����G       NoUsernamedead�NoUsernameGaurav.����s   DibyamshumohapatraDibyamshu Mohapatra!����:Aviralyadav7Aviral Yadav����j   NoUsernameSunny Jangir"����   NoUsernameHarshvardhan�����3       #!      k_i_n_g_300KING [OFF]���C       siddh282920Torque����W Arpit Dubey���e    NoUsernameHELLO���f NoUsernameIntegral�ߞ�, NoUsernameNagul M�(����G   Thinking_a_good_usernamename�"����       !%NoUsernameɴʏʀᴏ乂��ůl Legend_whoLegend)���5   ᴍʀ. ꜰɪɴᴇ ᴏꜰꜰ 🔱"����   !+      TerabaapMCꜱᴄᴏᴜᴛ���0      SHDE_ioSHADE
+����HNoUsernameHarsh Goyal���NoUsernameSorya Gupta����eNoUsernameMusr,���k !=      NoUsernameAmitesh Kumar Srivastava��ܤ�9    %!      Anuj001nehraAnuj Nehra����    Bineet_07Bineet$�ϖ�E !-             NoUsernameAnish Srivastava
+�Ĥ�        Parth���\    Erwin00074Princ���      !NoUsernameALONE🗿
+����Sanket_1waySanket����
+                                R10HANR10han�NoUsernameSounak����_ NoUsernameJee����( �
+���R Pw�߂�>�X_ga)erz_51🐢����  PawanKalyan420Ishanth
+dav�Ğ�K Yatharthg_6Yatharth ����6       !%      NoU���👤�Ҙ�ohnRitam Dey����4bekingC58King King����<  furan2980Furan����L  adityasp314Aditya Sp%����astro070nautJanhavi tripathi����              !        NoUsernameSunshinee
+�⦒G Vishwa156Vishwajeet�٩�f NoUsernameMrin&���� !3honeyraj24Honey Raj Srivastav�IvahbiavI^_^��heAV25TheAV25$����[     #'      monishshaikMonish Shaikh#����FGURI 🔘���W  !       NoUsername-�
+(+���W0����qG!
+�
+ �
+  �
+   �
+    ]
+     6
+      �
+       �
+        �
+         }
+          a
+           A
+            #
+�
++
+�
+g
+@
+        �       �       �       �       e       8t����             Orzzz09Hola Amigo</>��ۜsNoUsernameAreedrit!���z     !%              NoUsernameDreamy.daisy
+���Poorvi S'����        !/      NoUsernameAnonymous account����   NoUsernameBlack Cat2Pollz����,   ! NoUsernameDelta'��̷3      !3      NoUsernameThakur sahab ⚔️���۴m  Just_me0204P🫶🏻��ТJ    snowyyflakessK!����p   !)      NoUsernameMONKEY D LUFFY��¢     # Voidnull404.�#����8      !-      NoUsernameGiriraj Bhardwaj)��      %3             Ishanaftg007Ishan[Aftg][OFF]✨
+!��� NoUsernameThe Great 💀0���<        !E      Ie_���R...*����z09H!9a Amigo</>���Kohliii_85νιяαт кσнℓι
+����    NoUsername-����l        !              NoUsernameMayank
+����Ishaan.......�ލ     NoUsernameV Ilonon���c  +madamecurie1060mistyy
+3����K  NoUsername𝙺𝙸𝚂𝚄𝙺𝙴 🎻4�yoursgravityメ𝙂𝙧𝙖𝙫𝙞𝙩𝙮!����    !'      NoUsernameAnuraj Khonde�!����k  !NoUsernameAditya Mishra
+����Siddhant Kate����?  space_lover123.....�NoUsernameAnonymus���z !       NoUsernamegrizzly-��Indian_devil_0Akmal,��܏s       !9      NoUsernameBaba Tillu Bodmos 🎀P   "�s      !              NoUsernameAreedrit
+ ����G  -       UjjwalGottaShineUjjwal�!����$tanuja021723Tanuja Patil��NoUsername-8����3   )M       Padhlebehen143𝐏𝐀𝐍𝐃𝐀🤍✨[OFF]
+ ���  TheEnemyOfEarthHuman�$��ӡ     KsksjsjsiwjsjswowkejejHarsh!����e   NoUsernamesb moh maya .."��neat8cleanNeat 🔗 Clean����G       NoUsernamedead�NoUsernameGaurav.����s   DibyamshumohapatraDibyamshu Mohapatra!����:Aviralyadav7Aviral Yadav.����      INVISIBLE_BIRDBIRDIEE🐣 [ DEAD ]"���O      !)       NoUsername🔸▪️🔹
+����jNoUsernameSunny Jangir"����        NoUsernameH
