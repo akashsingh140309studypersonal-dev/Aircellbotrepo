@@ -21,7 +21,7 @@ logging.getLogger("httpx").setLevel(logging.WARNING)
 logging.getLogger("httpcore").setLevel(logging.WARNING)
 logging.getLogger("telegram").setLevel(logging.WARNING)
 
-TOKEN = "YOUR_BOT_TOKEN_HERE"
+TOKEN = "8932328515:AAEj0Mt9dtdZmOhel6dH9EHCNWxatQgdwNc"
 OWNERS = [7943423987, 8441919637]
 
 # Conversation States
